@@ -4,6 +4,9 @@ import Field from "./components/field";
 import Languages from "./components/languages";
 import Translate from "./components/translate";
 
+//useState works with react's state system
+//state tracks data that changes over time
+//it updates the html on the user's screen
 export default function App() {
   const [language, setLanguage] = useState("");
   const [text, setText] = useState("");

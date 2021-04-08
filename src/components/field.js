@@ -1,5 +1,6 @@
 import React from "react";
 
+//called by jsx on the app component
 export default ({ label, value, onChange }) => {
   return (
     <div>
